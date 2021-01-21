@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",     "cat /tmp/recordingicon 2>/dev/null",   0,     9},
 
-	{"",     "weather",                             30,     0},
+	{"",     "weather",                             600,     0},
 
 	{"",     "battery",                              0,     0},
 
@@ -13,7 +13,7 @@ static const Block blocks[] = {
 
 	{"",     "datetime",                             5,     0},
 
-	{"",     "xkb-switch -p",                        1,     0},
+	{"",     "xkb-switch -p | sed 's/us/US/g;s/ru/RU/g'",  1,     0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
