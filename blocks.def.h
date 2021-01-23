@@ -5,7 +5,7 @@ static const Block blocks[] = {
 
 	{"",     "weather",                             600,     0},
 
-	{"",     "battery",                              0,     0},
+	{"",     "battery",                              30,     0},
 
 	{"",     "volume",                               0,    10},
 
