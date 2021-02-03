@@ -5,13 +5,13 @@ static const Block blocks[] = {
 
 	{"",     "cat /tmp/recordingicon 2>/dev/null",   0,     9},
 
-	{"",     "weather",                             600,     0},
+	//{"",     "weather",                             600,     0},
 
 	{"",     "battery",                              30,     0},
 
 	{"",     "volume",                               0,    10},
 
-	{"",     "internet",                            10,     0},
+	//{"",     "internet",                            10,     0},
 
 	{"",     "datetime",                             5,     0},
 
