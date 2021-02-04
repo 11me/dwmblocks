@@ -1,9 +1,11 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+	{"",     "cat /tmp/recordingicon 2>/dev/null",   0,     9},
+
 	{"",     "player",                               0,     11},
 
-	{"",     "cat /tmp/recordingicon 2>/dev/null",   0,     9},
+	{"",     "mailbox",                             10,     13},
 
 	//{"",     "weather",                             600,     0},
 
