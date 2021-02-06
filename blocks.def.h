@@ -17,7 +17,7 @@ static const Block blocks[] = {
 
 	{"",     "datetime",                             5,     0},
 
-	{"",     "xkb-switch -p | sed 's/us/US/g;s/ru/RU/g'",  1,     0},
+	{"",     "xkb-switch -p | sed 's/us/US/g;s/ru/RU/g'",  0,     14},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
