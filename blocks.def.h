@@ -7,7 +7,9 @@ static const Block blocks[] = {
 
 	{"",     "mailbox",                             10,     13},
 
-	//{"",     "weather",                             600,     0},
+	{"",     "weather",                             600,     0},
+
+	{"",     "currency",                             600,     0},
 
 	{"",     "battery",                              30,     0},
 
